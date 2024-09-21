@@ -1,0 +1,98 @@
+:root {
+  --black: #0d0d0d;
+  --sect1: #6E94E6;
+  --sect2: #956EE6;
+  --sect3: #6F6FE6;
+  --sect4: #BC6EE6;
+  --sect5: #BBBBE6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s ease;
+  font-family: 'Varela Round', cursive;
+  background-color: var(--black);
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.25rem;
+  text-align: center;
+  max-width: 800px;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#RegiãoNorte {
+  background-color: var(--sect1);
+}
+
+#RegiãoNordeste {
+  background-color: var(--sect2);
+}
+
+#RegiãoCentroOeste {
+  background-color: var(--sect3);
+}
+
+#RegiãoSudeste {
+  background-color: var(--sect4);
+}
+
+#RegiãoSul {
+  background-color: var(--sect5);
+}
